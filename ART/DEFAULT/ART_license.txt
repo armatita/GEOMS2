@@ -1,0 +1,1098 @@
+This is the art license file designed to give credit to the authors of all art assets used in this
+software. Please fill the fields with accurate information.
+
+The themes are made with images for specific purposes and so must have specific sizes. The theme is
+also the name of the directory from which all files from the theme are present. Check ART directory
+in your software.
+
+THEME: DEFAULT
+
+#-------------------------------------------------------
+
+RELATED IMAGES: (directory: related) ico
+
+o)software icon:
+Link: http://www.iconarchive.com/show/puzzle-social-network-icons-by-daddydesign/wave-icon.html
+Artist: Daddydesign
+Iconset: Puzzle Social Network Icons (73 icons)
+License: Linkware (Backlink to http://www.daddydesign.com required)
+Commercial usage: Allowed
+
+o)software developer:
+
+o)softwate associates:
+
+#-------------------------------------------------------
+
+TOP MENU IMAGES: (directory: topmenu) 24px
+
+o)import point:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-share-manager-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o)import grid:
+Link: http://www.iconarchive.com/show/NX11-icons-by-mazenl77/Internet-Real-icon.html
+Artist: MazeNL77
+Iconset: NX11 Icons (12 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o)import surface:
+Link: http://www.iconarchive.com/show/fantastic-dream-icons-by-rokey/layers-grass-icon.html
+Artist: Rokey
+Iconset: Fantastic Dream Icons (49 icons)
+License: Free for non-commercial use.
+Commercial usage: Not allowed
+
+o) import data:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Books-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) empty grid:
+Link: http://www.iconarchive.com/show/3d-movers-icons-by-mymovingreviews/boxes-brown-icon.html
+Artist: MyMovingReviews
+Iconset: Movers Icons (10 icons)
+License: Linkware (Backlink to http://www.mymovingreviews.com required)
+Commercial usage: Allowed (Backlink to http://www.mymovingreviews.com required)
+
+o) empty surf:
+Link: http://www.iconarchive.com/show/3d-movers-icons-by-mymovingreviews/boxes-green-icon.html
+Artist: MyMovingReviews
+Iconset: Movers Icons (10 icons)
+License: Linkware (Backlink to http://www.mymovingreviews.com required)
+Commercial usage: Allowed (Backlink to http://www.mymovingreviews.com required)
+
+o)general export:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Save-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) quit(exit):
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/Action-exit-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) plugin help:
+Link: http://www.iconarchive.com/show/blue-bits-icons-by-icojam/question-faq-icon.html
+Artist: Icojam
+Iconset: Blue Bits Icons (124 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) import similars:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Export-To-File-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) load image:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Mimetypes-image-x-adobe-dng-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) load ascii stl:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/draw-vertex-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) processing:
+Link: http://www.iconarchive.com/show/android-icons-by-icons8/Music-audio-wave-icon.html
+Artist: Icons8
+Iconset: Android Icons (503 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
+o) Geometric transform:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Science-Geometry-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) wavelet convolve:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/draw-wave-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Fracture connection:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/connect-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 4.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) hard work:
+Link: http://www.iconarchive.com/show/blogging-icons-by-webiconset/Not-Available-for-Work-icon.html
+Artist: WebIconSet.com
+Iconset: Blogging Icons (10 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) Curses tetris:
+Link: http://www.iconarchive.com/show/tulliana-2-icons-by-umut-pulat/block-device-icon.html
+Artist: Umut Pulat
+Iconset: Tulliana 2 Icons (415 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) Curses dodger:
+Link: http://www.iconarchive.com/show/onebit-icons-by-icojam/console-icon.html
+Artist: Icojam
+Iconset: Onebit 1-3 Icons (105 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) Curses maze:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-package-games-arcade-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) Distribution maker:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/layer-histogram-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Seismic inversion:
+Link: http://www.iconarchive.com/show/android-icons-by-icons8/Maps-timezone-icon.html
+Artist: Icons8
+Iconset: Android Icons (503 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
+o) Distribution optimization by simulated annealing:
+Link: http://www.iconarchive.com/show/glyphish-icons-by-glyphish/130-dice-icon.html
+Artist: Glyphish
+Iconset: Glyphish Icons (200 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://glyphish.com required)
+
+o) Python GSI:
+Link: http://www.iconarchive.com/show/android-icons-by-icons8/Maps-globe-earth-icon.html
+Artist: Icons8
+Iconset: Android Icons (503 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
+o) DSIP:
+Link: http://www.iconarchive.com/show/android-icons-by-icons8/Maps-east-direction-icon.html
+Artist: Icons8
+Iconset: Android Icons (503 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
+o) Simulation:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Sciences-Classes-Test-tube-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) CBIS:
+Link: http://www.iconarchive.com/show/fugue-icons-by-yusuke-kamiyamane/block-icon.html
+Artist: Yusuke Kamiyamane
+Iconset: Fugue Icons (3560 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://p.yusukekamiyamane.com required)
+
+o) Fracture simulation:
+Link: http://www.iconarchive.com/show/windows-8-icons-by-icons8/Very-Basic-Broken-Link-icon.html
+Artist: Icons8
+Iconset: Windows 8 Icons (2122 icons)
+License: Linkware (Backlink to http://icons8.com required)
+Commercial usage: Allowed
+License URL: http://icons8.com/license/
+
+o) Synthetic:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/chart-curve-add-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Geological mesh:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/layer-chart-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Property maker:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/hand-property-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Multiple property maker:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/date-relation-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Wavelet generation:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/chart-bar-edit-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Parsers:
+Link: http://www.iconarchive.com/show/developpers-icons-by-sekkyumu/Transfer-Document-icon.html
+Artist: Sekkyumu
+Iconset: Developpers Icons (105 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) Pseudo-distributions parser:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/layer-histogram-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 4.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+#-------------------------------------------------------
+
+TOOLBAR IMAGES: (directory: toolbar) 64px
+
+o)import point:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-share-manager-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o)import grid:
+Link: http://www.iconarchive.com/show/NX11-icons-by-mazenl77/Internet-Real-icon.html
+Artist: MazeNL77
+Iconset: NX11 Icons (12 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o)import surface:
+Link: http://www.iconarchive.com/show/fantastic-dream-icons-by-rokey/layers-grass-icon.html
+Artist: Rokey
+Iconset: Fantastic Dream Icons (49 icons)
+License: Free for non-commercial use.
+Commercial usage: Not allowed
+
+o) import data:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Books-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) import project:
+Link: http://www.iconarchive.com/show/origami-icons-by-double-j-design/archive-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Origami Icons (15 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) export project:
+Link: http://www.iconarchive.com/show/origami-colored-pencil-icons-by-double-j-design/green-archive-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Origami Colored Pencil Icons (160 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) save project:
+Link: http://www.iconarchive.com/show/origami-colored-pencil-icons-by-double-j-design/blue-archive-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Origami Colored Pencil Icons (160 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o)general export:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Save-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) quit(exit):
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/Action-exit-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) viewer definitions:
+Link: http://www.iconarchive.com/show/free-3d-printer-icons-by-aha-soft/3D-objects-icon.html
+Artist: Aha-Soft (Available for custom work)
+Iconset: Free 3D Printer Icons (12 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.aha-soft.com required)
+
+o) empty grid:
+Link: http://www.iconarchive.com/show/3d-movers-icons-by-mymovingreviews/boxes-brown-icon.html
+Artist: MyMovingReviews
+Iconset: Movers Icons (10 icons)
+License: Linkware (Backlink to http://www.mymovingreviews.com required)
+Commercial usage: Allowed (Backlink to http://www.mymovingreviews.com required)
+
+o) empty surf:
+Link: http://www.iconarchive.com/show/3d-movers-icons-by-mymovingreviews/boxes-green-icon.html
+Artist: MyMovingReviews
+Iconset: Movers Icons (10 icons)
+License: Linkware (Backlink to http://www.mymovingreviews.com required)
+Commercial usage: Allowed (Backlink to http://www.mymovingreviews.com required)
+
+o) toolbox:
+Link: http://www.iconarchive.com/show/nuoveXT-2-icons-by-saki/Categories-utilities-icon.html
+Artist: Saki
+Iconset: NuoveXT 2 Icons (143 icons)
+License: GNU General Public License
+Commercial usage: Allowed
+
+o) export to object:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-3d-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) clean object manager:
+Link: http://www.iconarchive.com/show/flat-icons-by-yellowicon/Full-Trash-icon.html
+Artist: Yellow Icon Design
+Iconset: Flat Icons (41 icons)
+License: GNU General Public License
+Commercial usage: Allowed
+
+o) online help:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-help-contents-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+#-------------------------------------------------------
+
+CONTEXT MENU IMAGES: (directory: contextmenu) 16px
+
+o) View\UnView:
+Link: http://www.iconarchive.com/show/my-seven-icons-by-itzikgur/Favorities-icon.html
+Artist: Itzik Gur
+Iconset: My Seven Icons (48 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) definitions:
+Link: http://www.iconarchive.com/show/blueberry-basic-icons-by-icojam/options-2-icon.html
+Artist: Icojam
+Iconset: Blueberry Basic Icons (111 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) Object specifics:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-format-stroke-color-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) labelme:
+Link: http://www.iconarchive.com/show/basic-icons-by-pixelmixer/label-icon.html
+Artist: PixelMixer
+Iconset: Basic Icons (42 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) zscale (zstretch):
+Link: http://www.iconarchive.com/show/free-vibrant-icons-by-creative-freedom/Ruler-icon.html
+Artist: Creative Freedom (Available for custom work)
+Iconset: Free Vibrant Icons (20 icons)
+License: CC Attribution-No Derivative 3.0
+Commercial usage: Allowed (Backlink to http://www.creativefreedom.co.uk required)
+
+o) world view:
+Link: http://www.iconarchive.com/show/blue-bits-icons-by-icojam/globe-icon.html
+Artist: Icojam
+Iconset: Blue Bits Icons (124 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) Delete:
+Link: http://www.iconarchive.com/show/web-2-icons-by-cheezen/delete-icon.html
+Artist: Cheezen
+Iconset: Web 2 Icons (35 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o)import point:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-share-manager-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o)import grid:
+Link: http://www.iconarchive.com/show/NX11-icons-by-mazenl77/Internet-Real-icon.html
+Artist: MazeNL77
+Iconset: NX11 Icons (12 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o)import surface:
+Link: http://www.iconarchive.com/show/fantastic-dream-icons-by-rokey/layers-grass-icon.html
+Artist: Rokey
+Iconset: Fantastic Dream Icons (49 icons)
+License: Free for non-commercial use.
+Commercial usage: Not allowed
+
+o) import data:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Books-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) Histogram:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Charts-Bar-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Scatterplot:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Charts-Scatter-plot-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Boxplot:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Business-Package-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Lineplot:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Imagetools-Line-width-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Stereonet:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Maps-and-Geolocation-Wind-rose-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Densityplot:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Objects-Scale-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) Bubbleplot:
+Link: http://www.iconarchive.com/show/cleaning-icons-by-robinweatherall/bubbles-icon.html
+Artist: Robin Weatherall (Available for custom work)
+Iconset: Cleaning Icons (9 icons)
+License: Linkware (Backlink to http://www.robinweatherall.eu required)
+Commercial usage: Allowed
+
+o) Bubblenet:
+Link: http://www.iconarchive.com/show/halloween-icons-by-iconcreme/Net-icon.html
+Artist: IconCreme
+Iconset: Halloween Icons (22 icons)
+License: Linkware (Backlink to http://iconcreme.com required)
+Commercial usage: Allowed
+
+o) Fillplot:
+Link: http://www.iconarchive.com/show/outline-icons-by-designcontest/Paint-icon.html
+Artist: DesignContest (Available for custom work)
+Iconset: Outline Icons (40 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.designcontest.com required)
+
+o) Densitynet:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Measurement-Units-Speed-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) 2D plots:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Objects-Paper-plane-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) 3D plots:
+Link: http://www.iconarchive.com/show/outline-icons-by-designcontest/3D-icon.html
+Artist: DesignContest (Available for custom work)
+Iconset: Outline Icons (40 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.designcontest.com required)
+
+o) Volume view:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/App-miscellaneous-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) Volume and slices view:
+Link: http://www.iconarchive.com/show/cheese-icons-by-robinweatherall/cheese-edam-icon.html
+Artist: Robin Weatherall (Available for custom work)
+Iconset: Cheese Icons (9 icons)
+License: Linkware (Backlink to http://www.robinweatherall.eu required)
+Commercial usage: Allowed
+
+o) 3D scatter:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/chart-bullseye-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) Variogram:
+Link: http://www.iconarchive.com/show/finance-icons-by-visualpharm/line-chart-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Finance Icons (12 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed (Backlink to http://www.visualpharm.com required)
+
+o) Simulation:
+Link: http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo/Device-blockdevice-cubes-icon.html
+Artist: Everaldo / Yellowicon
+Iconset: Crystal Clear Icons (509 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) gsi:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Business-Parallel-tasks-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) dss:
+Link: www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Timeline-List-Grid-Grid-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) sgs:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Charts-Combo-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) sis:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Charts-Line-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) estimation:
+Link: http://www.iconarchive.com/show/mobile-icons-by-webiconset/maps-icon.html
+Artist: WebIconSet.com
+Iconset: Mobile Icons (10 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) kriging:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Maps-and-Geolocation-Globe-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) iwd:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Maps-and-Geolocation-Filled-flag-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) grid interpolation:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Charts-Heat-map-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) operations:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Categories-preferences-system-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) mirror:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-object-flip-horizontal-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) categorize:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-view-process-all-tree-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) crop:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-transform-crop-and-resize-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) duplicate:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-tab-duplicate-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) linear transformation:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Imagetools-Line-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) geometric:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Rulers-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) pickle:
+Link: http://icons.iconarchive.com/icons/visualpharm/icons8-metro-style/32/Hands-One-finger-icon.png
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) repeat:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Media-Controls-Repeat-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) expand:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Imagetools-Resize-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) tile:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/It-Infrastructure-Stack-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) transpose:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Image-Edition-Tools-Text-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) shift:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-go-jump-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) flip:
+Link: http://www.iconarchive.com/show/I-like-buttons-icons-by-mazenl77/EZ-Previous-icon.html
+Artist: MazeNL77
+Iconset: I Like Buttons Icons (126 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) flip vertical:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Image-Edition-Tools-Flip-vertical-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) flip horizontal:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Image-Edition-Tools-Flip-horizontal-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) flip z:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Arrows-Down-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) rotate:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Image-Edition-Tools-Rotate-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) swap:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Media-Controls-Shuffle-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) split:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/layouts-split-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) pad:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Mathematic-Plus2-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) translation:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Clothes-Trainers-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) calculator:
+Link: http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Apps-accessories-calculator-icon.png
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) move:
+Link: http://www.iconarchive.com/show/or-icons-by-iconleak/archive-icon.html
+Artist: IconLeak (Available for custom work)
+Iconset: Or Application Icons (10 icons)
+License: Linkware (Backlink to http://iconleak.com required)
+Commercial usage: Allowed
+
+o) copy:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-edit-copy-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) constant calculator:
+Link: http://www.iconarchive.com/show/sevenesque-icons-by-tristan-edwards/Calculator-icon.html
+Artist: Tristan Edwards
+Iconset: Sevenesque (iOS 7 inspired) Icons (12 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) object calculator:
+Link: http://www.iconarchive.com/show/openphone-icons-by-walrick/Calculator-icon.html
+Artist: Walrick
+Iconset: openPhone Icons (12 icons)
+License: GNU General Public License
+Commercial usage: Allowed
+
+o) global calculator:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Very-Basic-Calculator-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) manipulate:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/hand-point-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) join:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/arrow-join-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) surface related:
+Link: http://www.iconarchive.com/show/simple-green-icons-by-simplefly/water-sea-icon.html
+Artist: Simplefly (Available for custom work)
+Iconset: SimpleGreen Icons (25 icons)
+License: CC Attribution-No Derivative 3.0
+Commercial usage: Allowed
+
+o) Above or below:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/sql-join-right-exclude-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) between:
+Link: http://www.iconarchive.com/show/fugue-icons-by-yusuke-kamiyamane/wrap-option-icon.html
+Artist: Yusuke Kamiyamane
+Iconset: Fugue Icons (3560 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://p.yusukekamiyamane.com required)
+
+o) flatten:
+Link: http://www.iconarchive.com/show/atrous-icons-by-iconleak/hammer-icon.html
+Artist: IconLeak (Available for custom work)
+Iconset: Atrous Icons (10 icons)
+License: Linkware (Backlink to http://iconleak.com required)
+Commercial usage: Allowed
+
+o) flatten point:
+Link: http://www.iconarchive.com/show/blue-bits-icons-by-icojam/tool-edit-icon.html
+Artist: Icojam
+Iconset: Blue Bits Icons (124 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) unflatten point:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Categories-preferences-system-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) unflatten:
+Link: http://www.iconarchive.com/show/build-icons-by-designkindle/Screw-Driver-icon.html
+Artist: Design Kindle
+Iconset: Build Icons (50 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) create shape:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/layer-shape-polyline-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) shovel:
+Link: http://www.iconarchive.com/show/fugue-icons-by-yusuke-kamiyamane/shovel-icon.html
+Artist: Yusuke Kamiyamane
+Iconset: Fugue Icons (3560 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://p.yusukekamiyamane.com required)
+
+o) balanced shovel:
+Link: http://www.iconarchive.com/show/ios7v2-icons-by-visualpharm/Tools-Shovel-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: iOS7 Minimal Icons (767 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) slope map:
+Link: http://www.iconarchive.com/show/I-like-buttons-3a-icons-by-mazenl77/Perspective-Button-Stop-icon.html
+Artist: MazeNL77
+Iconset: I Like Buttons 3a Icons (26 icons)
+License: Freeware
+Commercial usage: Allowed
+
+o) map to surface:
+Link: http://www.iconarchive.com/show/sunrise-sunset-icons-by-icondigest/Sunset-icon.html
+Artist: IconDigest
+Iconset: Sunrise Sunset Icons (14 icons)
+License: Freeware
+Commercial usage: Allowed
+Please notify me if you use them in a commercial application or on the Web.
+
+o) cut:
+Link: http://www.iconarchive.com/show/must-have-icons-by-visualpharm/Cut-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Must Have Icons (59 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed (Backlink to http://www.visualpharm.com required)
+
+o) convert:
+Link: http://www.iconarchive.com/show/led-icons-by-led24.de/doc-convert-icon.html
+Artist: Led24
+Iconset: Led Icons (508 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://led24.de required)
+
+o) point related:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/draw-points-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) add from mesh:
+Link: http://www.iconarchive.com/show/vista-map-markers-icons-by-icons-land/Map-Marker-Push-Pin-2-Right-Chartreuse-icon.html
+Artist: Icons-Land (Available for custom work)
+Iconset: Vista Map Markers Icons (78 icons)
+License: Linkware (Backlink to http://www.icons-land.com required)
+Commercial usage: Buy commercial license here: http://www.icons-land.com/vista-map-markers-icons.php
+
+o) map as quiver:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Arrow-Up-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) map as streamline:
+Link: http://www.iconarchive.com/show/tulliana-2-icons-by-umut-pulat/pipe-icon.html
+Artist: Umut Pulat
+Iconset: Tulliana 2 Icons (415 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) map as fracture:
+Link: http://www.iconarchive.com/show/led-icons-by-led24.de/shape-square-icon.html
+Artist: Led24
+Iconset: Led Icons (508 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://led24.de required)
+
+o) map as graph:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/google-map-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) mesh related:
+Link: http://www.iconarchive.com/show/led-icons-by-led24.de/grid-icon.html
+Artist: Led24
+Iconset: Led Icons (508 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://led24.de required)
+
+o) attributes:
+Link: http://www.iconarchive.com/show/free-3d-glossy-interface-icons-by-aha-soft/application-icon.html
+Artist: Aha-Soft (Available for custom work)
+Iconset: 3D Interface Icons (54 icons)
+License: Linkware (Backlink to http://www.aha-soft.com required)
+Commercial usage: Allowed
+
+o) interpretation:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/soil-layers-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) create point set:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/map-add-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) point section view:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/map-torn-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) generate image set:
+Link: http://www.iconarchive.com/show/ravenna-3d-icons-by-double-j-design/Image-icon.html
+Artist: Double-J Design (Available for custom work)
+Iconset: Ravenna 3D Icons (90 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.doublejdesign.co.uk required)
+
+o) upscale:
+Link: http://www.iconarchive.com/show/blueberry-basic-icons-by-icojam/search-lense-icon.html
+Artist: Icojam
+Iconset: Blueberry Basic Icons (111 icons)
+License: Public Domain
+Commercial usage: Allowed
+
+o) data related:
+Link: http://www.iconarchive.com/show/led-icons-by-led24.de/book-next-icon.html
+Artist: Led24
+Iconset: Led Icons (508 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://led24.de required)
+
+o) pca:
+Link: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/table-heatmap-icon.html
+Artist: Fatcow Web Hosting
+Iconset: Farm Fresh Icons (3000 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.fatcow.com/free-icons required)
+
+o) classify:
+Link: http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm/Business-Serial-tasks-icon.html
+Artist: VisualPharm (Available for custom work)
+Iconset: Icons8 Metro Style Icons (1078 icons)
+License: Linkware (Backlink to http://www.visualpharm.com required)
+Commercial usage: Allowed
+
+o) discriminant analysis:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-office-chart-scatter-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) cluster analysis:
+Link: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-office-chart-ring-icon.html
+Artist: Oxygen Team
+Iconset: Oxygen Icons (883 icons)
+License: GNU Lesser General Public License
+Commercial usage: Allowed
+
+o) triangle related:
+Link: http://www.iconarchive.com/show/vintage-icons-by-designcontest/Triangle-icon.html
+Artist: DesignContest (Available for custom work)
+Iconset: Vintage Icons (49 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://www.designcontest.com required)
+
+o) add triangle variable:
+Link: http://www.iconarchive.com/show/vista-artistic-icons-by-awicons/add-icon.html
+Artist: Lokas Software (Available for custom work)
+Iconset: Vista Artistic Icons (40 icons)
+License: CC Attribution 3.0
+Commercial usage: Allowed (Backlink to http://awicons.com required)
