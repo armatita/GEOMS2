@@ -198,8 +198,10 @@ def check_header_on_file(path, at_least=3):
 
     See also
     --------
-    check_header_special_char_on_file,check_number_of_columns,
-    check_number_of_columns_special_char,check_dtype_on_file
+    check_header_special_char_on_file
+    check_number_of_columns
+    check_number_of_columns_special_char
+    check_dtype_on_file
 
     '''
     fid = open(path, 'r')
@@ -208,7 +210,8 @@ def check_header_on_file(path, at_least=3):
     flag = False
     cc = 0
     while counter != 0:
-        if fid.readline().replace('\n', '').replace('.', '').replace('-', '').replace('e', '').replace('+', '').split()[0].isdigit():
+        line = fid.readline()
+        if line.translate(None, '\n.-e+').split()[0].isdigit():
             counter = counter - 1
             cc = cc + 1
             flag = True
@@ -252,8 +255,10 @@ def check_header_on_flexible_file(path, at_least=3):
 
     See also
     --------
-    check_header_special_char_on_file,check_number_of_columns,
-    check_number_of_columns_special_char,check_dtype_on_file
+    check_header_special_char_on_file
+    check_number_of_columns
+    check_number_of_columns_special_char
+    check_dtype_on_file
 
     '''
     fid = open(path, 'r')
@@ -262,8 +267,7 @@ def check_header_on_flexible_file(path, at_least=3):
     flag = False
     cc = 0
     while counter != 0:
-        line = fid.readline().replace('\n', '').replace('.', '').replace(
-            '-', '').replace('e', '').replace('+', '').split()
+        line = fid.readline().translate(None, '\n.-e+').split()
         lflag = False
         for i in line:
             if i.isdigit():
@@ -313,8 +317,10 @@ def check_header_special_char_on_file(path, at_least=3):
 
     See also
     --------
-    check_header_on_file,check_number_of_columns,
-    check_number_of_columns_special_char,check_dtype_on_file
+    check_header_on_file
+    check_number_of_columns
+    check_number_of_columns_special_char
+    check_dtype_on_file
 
     '''
     fid = open(path, 'r')
@@ -377,8 +383,10 @@ def check_number_of_columns(path, header):
 
     See also
     --------
-    check_header_special_char_on_file,check_header_on_file,
-    check_number_of_columns_special_char,check_dtype_on_file
+    check_header_special_char_on_file
+    check_header_on_file
+    check_number_of_columns_special_char
+    check_dtype_on_file
 
     '''
     fid = open(path, 'r')
@@ -414,8 +422,10 @@ def check_number_of_columns_special_char(path, header, char):
 
     See also
     --------
-    check_header_special_char_on_file,check_header_on_file,
-    check_number_of_columns,check_dtype_on_file
+    check_header_special_char_on_file
+    check_header_on_file
+    check_number_of_columns
+    check_dtype_on_file
 
     '''
     fid = open(path, 'r')
@@ -451,8 +461,11 @@ def check_dtype_on_file(path, header, columns):
 
     See also
     --------
-    check_header_special_char_on_file,check_header_on_file,
-    check_number_of_columns,check_dtype_on_file
+    check_header_special_char_on_file
+    check_header_on_file
+    check_number_of_columns
+    check_dtype_on_file
+
     '''
     fid = open(path, 'r')
     for i in xrange(header):
@@ -580,8 +593,14 @@ def swap_load_ascii_multiple_grid(path, blocks, header=0, dtype='float32',
 
     See also
     --------
-    swap_load_ascii_single_grid,load_ascii_single_grid,load_ascii_multiple_grid
-    swap_load_npy_grid,load_ascii_grid,load_npy_grid,load_grid
+    swap_load_ascii_single_grid
+    load_ascii_single_grid
+    load_ascii_multiple_grid
+    swap_load_npy_grid
+    load_ascii_grid
+    load_npy_grid
+    load_grid
+
     '''
     fid = open(path, 'r')
     for i in xrange(header):  # @UnusedVariable
@@ -643,8 +662,14 @@ def load_ascii_single_grid(path, blocks, header=0, dtype='float32'):
 
     See also
     --------
-    swap_load_ascii_single_grid,swap_load_ascii_nultiple_grid,load_ascii_multiple_grid
-    swap_load_npy_grid,load_ascii_grid,load_npy_grid,load_grid
+    swap_load_ascii_single_grid
+    swap_load_ascii_nultiple_grid
+    load_ascii_multiple_grid
+    swap_load_npy_grid
+    load_ascii_grid
+    load_npy_grid
+    load_grid
+
     '''
     fid = open(path, 'r')
     for i in xrange(header):  # @UnusedVariable
@@ -703,8 +728,14 @@ def load_ascii_multiple_grid(path, blocks, header=0, dtype='float32',
 
     See also
     --------
-    swap_load_ascii_single_grid,swap_load_ascii_nultiple_grid,load_ascii_single_grid
-    swap_load_npy_grid,load_ascii_grid,load_npy_grid,load_grid
+    swap_load_ascii_single_grid
+    swap_load_ascii_nultiple_grid
+    load_ascii_single_grid
+    swap_load_npy_grid
+    load_ascii_grid
+    load_npy_grid
+    load_grid
+
     '''
     fid = open(path, 'r')
     for i in xrange(header):  # @UnusedVariable
@@ -756,8 +787,14 @@ def swap_load_npy_grid(path, swap_directory='TMP'):
 
     See also
     --------
-    swap_load_ascii_single_grid,swap_load_ascii_nultiple_grid,load_ascii_single_grid
-    load_ascii_multiple_grid,load_ascii_grid,load_npy_grid,load_grid
+    swap_load_ascii_single_grid
+    swap_load_ascii_nultiple_grid
+    load_ascii_single_grid
+    load_ascii_multiple_grid
+    load_ascii_grid
+    load_npy_grid
+    load_grid
+
     '''
     directory_list_of_files = os.listdir(swap_directory)
     chosen_name = 'grid_' + str(np.random.randint(1000, 9999)) + '.dat'
@@ -765,13 +802,15 @@ def swap_load_npy_grid(path, swap_directory='TMP'):
         chosen_name = 'grid_' + str(np.random.randint(1000, 9999)) + '.dat'
     grid = np.load(path)
     mem_grid = np.memmap(swap_directory + '\\' + chosen_name,
-                         dtype=grid.dtype, mode='w+', shape=grid.shape, order='F')
+                         dtype=grid.dtype, mode='w+', shape=grid.shape,
+                         order='F')
     mem_grid[:] = grid[:]
     del(grid)
     return mem_grid
 
 
-def load_ascii_grid(path, blocks, header=0, dtype='float32', columns=1, swap=False, swap_directory='TMP'):
+def load_ascii_grid(path, blocks, header=0, dtype='float32', columns=1,
+                    swap=False, swap_directory='TMP'):
     '''
     load_ascii_grid(...)
         load_ascii_grid(path,blocks,header,dtype,columns,swap,swap_directory)
@@ -816,14 +855,17 @@ def load_ascii_grid(path, blocks, header=0, dtype='float32', columns=1, swap=Fal
     if swap:
         __manage_directory__(swap_directory)
         if columns == 1:
-            return swap_load_ascii_single_grid(path, blocks, header, dtype, swap_directory)
+            return swap_load_ascii_single_grid(path, blocks, header, dtype,
+                                               swap_directory)
         else:
-            return swap_load_ascii_multiple_grid(path, blocks, header, dtype, columns, swap_directory)
+            return swap_load_ascii_multiple_grid(path, blocks, header, dtype,
+                                                 columns, swap_directory)
     else:
         if columns == 1:
             return load_ascii_single_grid(path, blocks, header, dtype)
         else:
-            return load_ascii_multiple_grid(path, blocks, header, dtype, columns)
+            return load_ascii_multiple_grid(path, blocks, header, dtype,
+                                            columns)
 
 
 def load_npy_grid(path, swap=False, swap_directory='TMP'):
@@ -854,8 +896,14 @@ def load_npy_grid(path, swap=False, swap_directory='TMP'):
 
     See also
     --------
-    swap_load_ascii_single_grid,swap_load_ascii_nultiple_grid,load_ascii_single_grid
-    load_ascii_multiple_grid,load_ascii_grid,swap_load_npy_grid,load_grid
+    swap_load_ascii_single_grid
+    swap_load_ascii_nultiple_grid
+    load_ascii_single_grid
+    load_ascii_multiple_grid
+    load_ascii_grid
+    swap_load_npy_grid
+    load_grid
+
     '''
     if swap:
         __manage_directory__(swap_directory)
@@ -864,7 +912,8 @@ def load_npy_grid(path, swap=False, swap_directory='TMP'):
         return np.load(path)
 
 
-def load_grid(path, blocks=(1, 1, 1), dtype='float32', swap=False, swap_directory='TMP', at_least=3):
+def load_grid(path, blocks=(1, 1, 1), dtype='float32', swap=False,
+              swap_directory='TMP', at_least=3):
     '''
     load_grid(...)
         load_grid(path,blocks,header,dtype,columns,swap,swap_directory)
@@ -905,8 +954,14 @@ def load_grid(path, blocks=(1, 1, 1), dtype='float32', swap=False, swap_director
 
     See also
     --------
-    swap_load_ascii_single_grid,swap_load_ascii_nultiple_grid,load_ascii_single_grid
-    load_ascii_multiple_grid,swap_load_npy_grid,load_npy_grid,load_ascii_grid
+    swap_load_ascii_single_grid
+    swap_load_ascii_nultiple_grid
+    load_ascii_single_grid
+    load_ascii_multiple_grid
+    swap_load_npy_grid
+    load_npy_grid
+    load_ascii_grid
+
     '''
     if path[-4:] == '.npy':
         return load_npy_grid(path, swap, swap_directory)
@@ -919,19 +974,23 @@ def load_grid(path, blocks=(1, 1, 1), dtype='float32', swap=False, swap_director
             elif len(blocks) == 3:
                 pass
             else:
-                print 'ERROR ON "load_grid": length of blocks tuple not recognized. Only length 1,2 or 3 accepted.'
+                print('ERROR ON "load_grid": length of blocks tuple not '
+                      'recognized. Only length 1,2 or 3 accepted.')
                 return False
             header = check_header_on_file(path, at_least)
             columns = check_number_of_columns(path, header)
             if type(dtype) == bool:
                 dtype = check_dtype_on_file(path, header, columns)
-            return load_ascii_grid(path, blocks, header, dtype, columns, swap, swap_directory)
+            return load_ascii_grid(path, blocks, header, dtype, columns, swap,
+                                   swap_directory)
         else:
-            print 'ERROR ON "load_grid": blocks must be tuple of length 1,2 or 3.'
+            print('ERROR ON "load_grid": blocks must be tuple of length 1,2 '
+                  'or 3.')
             return False
 
 
-def swap_load_ascii_grib(path, counter, blocks, dtype='float32', swap_directory='TMP'):
+def swap_load_ascii_grib(path, counter, blocks, dtype='float32',
+                         swap_directory='TMP'):
     '''
     swap_load_ascii_grib(...)
         swap_load_ascii_grib(path,counter,blocks,dtype)
@@ -963,17 +1022,21 @@ def swap_load_ascii_grib(path, counter, blocks, dtype='float32', swap_directory=
 
     See also
     --------
-    load_grib, load_ascii_grib, swap_load_ascii_grib
+    load_grib
+    load_ascii_grib
+    swap_load_ascii_grib
+
     '''
     directory_list_of_files = os.listdir(swap_directory)
     chosen_name = 'grib_' + str(np.random.randint(1000, 9999)) + '.dat'
     while chosen_name in directory_list_of_files:
         chosen_name = 'grib_' + str(np.random.randint(1000, 9999)) + '.dat'
     mem_grib = np.memmap(swap_directory + '\\' + chosen_name, dtype=dtype,
-                         mode='w+', shape=(blocks[0], blocks[1], blocks[2], counter))
+                         mode='w+', shape=(blocks[0], blocks[1], blocks[2],
+                                           counter))
     fid = open(path, 'r')
     if dtype in ['float', 'float16', 'float32', 'float64']:
-        for i in xrange(counter):
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
@@ -981,15 +1044,16 @@ def swap_load_ascii_grib(path, counter, blocks, dtype='float32', swap_directory=
                         mem_grib[x, y, z, counter] = np.float(
                             fid.readline().replace('\n', ''))
     elif dtype == 'bool':
-        for i in xrange(counter):
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
                     for x in xrange(blocks[0]):
                         mem_grib[x, y, z, counter] = np.bool(
                             np.int(fid.readline().replace('\n', '')))
-    elif dtype in ['int', 'int8', 'int16', 'int32', 'int64', 'uint8', 'uint16', 'uint32', 'uint64']:
-        for i in xrange(counter):
+    elif dtype in ['int', 'int8', 'int16', 'int32', 'int64', 'uint8', 'uint16',
+                   'uint32', 'uint64']:
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
@@ -1029,12 +1093,16 @@ def load_ascii_grib(path, counter, blocks, dtype='float32'):
 
     See also
     --------
-    load_grib, load_ascii_grib, swap_load_ascii_grib, load_npy_grid
+    load_grib
+    load_ascii_grib
+    swap_load_ascii_grib
+    load_npy_grid
+
     '''
     grib = np.zeros((blocks[0], blocks[1], blocks[2], counter), dtype=dtype)
     fid = open(path, 'r')
     if dtype in ['float', 'float16', 'float32', 'float64']:
-        for i in xrange(counter):
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
@@ -1042,15 +1110,16 @@ def load_ascii_grib(path, counter, blocks, dtype='float32'):
                         grib[x, y, z, counter] = np.float(
                             fid.readline().replace('\n', ''))
     elif dtype == 'bool':
-        for i in xrange(counter):
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
                     for x in xrange(blocks[0]):
                         grib[x, y, z, counter] = np.bool(
                             np.int(fid.readline().replace('\n', '')))
-    elif dtype in ['int', 'int8', 'int16', 'int32', 'int64', 'uint8', 'uint16', 'uint32', 'uint64']:
-        for i in xrange(counter):
+    elif dtype in ['int', 'int8', 'int16', 'int32', 'int64', 'uint8', 'uint16',
+                   'uint32', 'uint64']:
+        for i in xrange(counter):  # @UnusedVariable
             fid.readline()
             for z in xrange(blocks[2]):
                 for y in xrange(blocks[1]):
@@ -1093,7 +1162,10 @@ def load_grib(path, dtype='float32', swap=False, swap_directory='TMP'):
 
     See also
     --------
-    load_grib, load_ascii_grib, swap_load_ascii_grib
+    load_grib
+    load_ascii_grib
+    swap_load_ascii_grib
+
     '''
     if path[-4:] == '.npy':
         return load_npy_grid(path, swap, swap_directory)
@@ -1106,7 +1178,8 @@ def load_grib(path, dtype='float32', swap=False, swap_directory='TMP'):
         elif len(appex1) == 3:
             blocks = (appex1[0], appex1[1], appex1[2])
         else:
-            print 'ERROR ON "load_grib": dimension of blocks not recognized in first line. Either 2 dimensions or 3 dimensions.'
+            print('ERROR ON "load_grib": dimension of blocks not recognized '
+                  'in first line. Either 2 dimensions or 3 dimensions.')
             return False
         fid.close()
         counter = 0
@@ -1117,7 +1190,8 @@ def load_grib(path, dtype='float32', swap=False, swap_directory='TMP'):
         fid = open(path, 'r')
         if swap:
             __manage_directory__(swap_directory)
-            return swap_load_ascii_grib(path, counter, blocks, dtype, swap_directory='TMP')
+            return swap_load_ascii_grib(path, counter, blocks, dtype,
+                                        swap_directory='TMP')
         else:
             return load_ascii_grib(path, counter, blocks, dtype)
 
@@ -1150,7 +1224,10 @@ def load_npy_point(path, swap=False, swap_directory='TMP'):
 
     See also
     --------
-    load_ascii_point, load_npy_point, load_point
+    load_ascii_point
+    load_npy_point
+    load_point
+
     '''
     if swap:
         directory_list_of_files = os.listdir(swap_directory)
@@ -1160,7 +1237,8 @@ def load_npy_point(path, swap=False, swap_directory='TMP'):
                 str(np.random.randint(1000, 9999)) + '.dat'
         point = np.load(path)
         mem_point = np.memmap(swap_directory + '\\' + chosen_name,
-                              dtype=point.dtype, mode='w+', shape=point.shape, order='F')
+                              dtype=point.dtype, mode='w+', shape=point.shape,
+                              order='F')
         mem_point[:] = point[:]
         del(point)
         return mem_point
@@ -1168,7 +1246,8 @@ def load_npy_point(path, swap=False, swap_directory='TMP'):
         return np.load(path)
 
 
-def load_ascii_point(path, coordinate_columns=(1, 2, 3), header=0, dtype='float32', swap=False, swap_directory='TMP'):
+def load_ascii_point(path, coordinate_columns=(1, 2, 3), header=0,
+                     dtype='float32', swap=False, swap_directory='TMP'):
     '''
     load_ascii_point(...)
         load_ascii_point(path,coordinate_columns,header,dtype,swap,swap_directory)
@@ -1204,7 +1283,10 @@ def load_ascii_point(path, coordinate_columns=(1, 2, 3), header=0, dtype='float3
 
     See also
     --------
-    load_ascii_point, load_npy_point, load_point
+    load_ascii_point
+    load_npy_point
+    load_point
+
     '''
     fid = open(path, 'r')
     for i in xrange(header):
@@ -1220,7 +1302,8 @@ def load_ascii_point(path, coordinate_columns=(1, 2, 3), header=0, dtype='float3
         (point.shape[0], point.shape[1] + number), dtype=dtype)
     counter = 0
     for i in xrange(len(coordinate_columns)):
-        if coordinate_columns[i] != 0 and coordinate_columns[i] - 1 < point.shape[1]:
+        if (coordinate_columns[i] != 0 and
+                coordinate_columns[i] - 1 < point.shape[1]):
             appex_point[:, counter] = point[:, coordinate_columns[i] - 1]
         counter = counter + 1
     counter = 3
@@ -1237,14 +1320,16 @@ def load_ascii_point(path, coordinate_columns=(1, 2, 3), header=0, dtype='float3
             chosen_name = 'point_' + \
                 str(np.random.randint(1000, 9999)) + '.dat'
         mem_point = np.memmap(swap_directory + '\\' + chosen_name,
-                              dtype=point.dtype, mode='w+', shape=point.shape, order='F')
+                              dtype=point.dtype, mode='w+', shape=point.shape,
+                              order='F')
         mem_point[:] = appex_point[:]
         return mem_point
     else:
         return appex_point
 
 
-def load_point(path, coordinate_columns=(1, 2, 3), dtype='float32', swap=False, swap_directory='TMP', at_least=3):
+def load_point(path, coordinate_columns=(1, 2, 3), dtype='float32', swap=False,
+               swap_directory='TMP', at_least=3):
     '''
     load_point(...)
         load_point(path,coordinate_columns,dtype,swap,swap_directory,at_least)
@@ -1284,7 +1369,10 @@ def load_point(path, coordinate_columns=(1, 2, 3), dtype='float32', swap=False, 
 
     See also
     --------
-    load_ascii_point, load_npy_point, load_point
+    load_ascii_point
+    load_npy_point
+    load_point
+
     '''
     if path[-4:] == '.npy':
         return load_npy_point(path, swap, swap_directory)
@@ -1293,10 +1381,12 @@ def load_point(path, coordinate_columns=(1, 2, 3), dtype='float32', swap=False, 
         columns = check_number_of_columns(path, header)
         if type(dtype) == bool:
             dtype = check_dtype_on_file(path, header, columns)
-        return load_ascii_point(path, coordinate_columns, header, dtype, swap, swap_directory)
+        return load_ascii_point(path, coordinate_columns, header, dtype, swap,
+                                swap_directory)
 
 
-def load_ascii_data(path, header=0, dtype='float32', swap=False, swap_directory='TMP'):
+def load_ascii_data(path, header=0, dtype='float32', swap=False,
+                    swap_directory='TMP'):
     '''
     load_ascii_data(...)
         load_ascii_data(path,header,dtype,swap,swap_directory)
@@ -1328,10 +1418,13 @@ def load_ascii_data(path, header=0, dtype='float32', swap=False, swap_directory=
 
     See also
     --------
-    load_ascii_data, load_npy_point, load_data
+    load_ascii_data
+    load_npy_point
+    load_data
+
     '''
     fid = open(path, 'r')
-    for i in xrange(header):
+    for i in xrange(header):  # @UnusedVariable
         fid.readline()
     data = np.loadtxt(fid, dtype=dtype)
     fid.close()
@@ -1341,7 +1434,8 @@ def load_ascii_data(path, header=0, dtype='float32', swap=False, swap_directory=
         while chosen_name in directory_list_of_files:
             chosen_name = 'data_' + str(np.random.randint(1000, 9999)) + '.dat'
         mem_data = np.memmap(swap_directory + '\\' + chosen_name,
-                             dtype=data.dtype, mode='w+', shape=data.shape, order='F')
+                             dtype=data.dtype, mode='w+', shape=data.shape,
+                             order='F')
         mem_data[:] = data[:]
         # del(point)
         return mem_data
@@ -1349,7 +1443,8 @@ def load_ascii_data(path, header=0, dtype='float32', swap=False, swap_directory=
         return data
 
 
-def load_data(path, dtype='float32', swap=False, swap_directory='TMP', at_least=3):
+def load_data(path, dtype='float32', swap=False, swap_directory='TMP',
+              at_least=3):
     '''
     load_data(...)
         load_data(path,dtype,swap,swap_directory,at_least)
@@ -1384,7 +1479,10 @@ def load_data(path, dtype='float32', swap=False, swap_directory='TMP', at_least=
 
     See also
     --------
-    load_ascii_data, load_npy_point, load_data
+    load_ascii_data
+    load_npy_point
+    load_data
+
     '''
     if path[-4:] == '.npy':
         load_npy_point(path, swap, swap_directory)
@@ -1424,16 +1522,20 @@ def load_flexible_data(path, swap=False, swap_directory='TMP', at_least=3):
     Returns
     -------
     out: numpy array
-        2D numpy array with information on file (assumed no spatial information).
+        2D numpy array with information on file (assumed no spatial
+        information).
 
     See also
     --------
-    load_ascii_data, load_npy_point, load_data
+    load_ascii_data
+    load_npy_point
+    load_data
+
     '''
     header = check_header_on_flexible_file(path, at_least)
-    columns = check_number_of_columns(path, header)
+#     columns = check_number_of_columns(path, header)
     fid = open(path, 'r')
-    for i in xrange(header):
+    for i in xrange(header):  # @UnusedVariable
         fid.readline()
     data = np.loadtxt(fid, dtype='|S32')
     fid.close()
@@ -1474,14 +1576,14 @@ def load_indicator_block_file(path, bins, dtype='float32'):
     number_loose = np.zeros(number, dtype='int')
     fid.readline()
     for i in xrange(number - 1):
-        for j in xrange(2):
+        for j in xrange(2):  # @UnusedVariable
             fid.readline()
         counter = 0
         while fid.readline().split()[0].isdigit():
             counter = counter + 1
         number_loose[i] = counter
     counter = 0
-    for j in xrange(2):
+    for j in xrange(2):  # @UnusedVariable
         fid.readline()
     while fid.readline().split() != []:
         counter = counter + 1
@@ -1498,7 +1600,7 @@ def load_indicator_block_file(path, bins, dtype='float32'):
     for i in xrange(number):
         blocks[i] = np.zeros((number_loose[i], cols), dtype=dtype)
     fid = open(path, 'r')
-    for j in xrange(3):
+    for j in xrange(3):  # @UnusedVariable
         fid.readline()
     for i in xrange(number):
         value[i, :] = np.float_(fid.readline().split(';'))
@@ -1533,7 +1635,10 @@ def load_continuous_block_file(path, dtype):
 
     See also
     --------
-    load_indicator_block_file,load_continuous_block_file,load_block
+    load_indicator_block_file
+    load_continuous_block_file
+    load_block
+
     '''
     fid = open(path, 'r')
     fid.readline()
@@ -1541,14 +1646,14 @@ def load_continuous_block_file(path, dtype):
     number_loose = np.zeros(number, dtype='int')
     fid.readline()
     for i in xrange(number - 1):
-        for j in xrange(2):
+        for j in xrange(2):  # @UnusedVariable
             fid.readline()
         counter = 0
         while fid.readline().split()[0].replace(".", "", 1).isdigit():
             counter = counter + 1
         number_loose[i] = counter
     counter = 0
-    for j in xrange(2):
+    for j in xrange(2):  # @UnusedVariable
         fid.readline()
     while fid.readline().split() != []:
         counter = counter + 1
@@ -1565,7 +1670,7 @@ def load_continuous_block_file(path, dtype):
     for i in xrange(number):
         blocks[i] = np.zeros((number_loose[i], cols), dtype=dtype)
     fid = open(path, 'r')
-    for j in xrange(3):
+    for j in xrange(3):  # @UnusedVariable
         fid.readline()
     for i in xrange(number):
         value[i] = np.float_(fid.readline())
@@ -1597,11 +1702,15 @@ def __check_bins_on_file__(path):
 
     See also
     --------
-    load_indicator_block_file,load_continuous_block_file,__check_bins_on_file__,
-    __check_if_indicator__,load_block
+    load_indicator_block_file
+    load_continuous_block_file
+    __check_bins_on_file__
+    __check_if_indicator__
+    load_block
+
     '''
     fid = open(path, 'r')
-    for i in xrange(3):
+    for i in xrange(3):  # @UnusedVariable
         fid.readline()
     bins = len(fid.readline().split(';'))
     fid.close()
@@ -1624,15 +1733,20 @@ def __check_if_indicator__(path):
     Returns
     -------
     out: bool
-        Boolean value True or False to wether the block file is indicator or not.
+        Boolean value True or False to wether the block file is indicator or
+        not.
 
     See also
     --------
-    load_indicator_block_file,load_continuous_block_file,__check_bins_on_file__,
-    __check_if_indicator__,load_block
+    load_indicator_block_file
+    load_continuous_block_file
+    __check_bins_on_file__
+    __check_if_indicator__
+    load_block
+
     '''
     fid = open(path, 'r')
-    for i in xrange(3):
+    for i in xrange(3):  # @UnusedVariable
         fid.readline()
     bins = len(fid.readline().split(';'))
     if bins == 1:
@@ -1672,14 +1786,20 @@ def load_block(path, dtype='float32', swap=False, swap_directory='TMP'):
 
     See also
     --------
-    load_indicator_block_file,load_continuous_block_file,__check_bins_on_file__,
-    __check_if_indicator__,load_block
+    load_indicator_block_file
+    load_continuous_block_file
+    __check_bins_on_file__
+    __check_if_indicator__
+    load_block
+
     '''
     if path[-4:] == '.npy':
-        print 'ERROR ON "load_block": numpy binary support for blocks does not exist in this version.'
+        print('ERROR ON "load_block": numpy binary support for blocks does '
+              'not exist in this version.')
         return False
     if swap:
-        print 'ERROR ON "load_block": memory swapping support for blocks does not exist in this version.'
+        print('ERROR ON "load_block": memory swapping support for blocks does '
+              'not exist in this version.')
     indicator = __check_if_indicator__(path)
     if indicator:
         bins = __check_bins_on_file__(path)
@@ -1720,8 +1840,14 @@ def save_grid(grid, opath='default_grid_name.prn', fmt='%10.3f', header=False):
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
-    save_indicator_block,save_grid_by_dictionary
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
+    save_indicator_block
+    save_grid_by_dictionary
+
     '''
     if opath[-4:] == '.npy':
         np.save(opath, grid)
@@ -1751,11 +1877,13 @@ def save_grid(grid, opath='default_grid_name.prn', fmt='%10.3f', header=False):
             return True
         else:
             fid.close()
-            print 'ERROR ON "save_grid": length of grid shape not recognized. It should tuple of size 3 or 4.'
+            print('ERROR ON "save_grid": length of grid shape not recognized. '
+                  'It should tuple of size 3 or 4.')
             return False
 
 
-def cerena_save_grid_by_dictionary(dictionary, opath='default_grid_name.prn', fmt='%10.3f', header=False):
+def cerena_save_grid_by_dictionary(dictionary, opath='default_grid_name.prn',
+                                   fmt='%10.3f', header=False):
     '''
     cerena_save_grid_by_dictionary(...)
         cerena_save_grid(dictionary,opath,fmt,header)
@@ -1787,8 +1915,13 @@ def cerena_save_grid_by_dictionary(dictionary, opath='default_grid_name.prn', fm
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         grid = []
@@ -1823,8 +1956,8 @@ def save_grib(grib, opath='default_grib_name.prn', fmt='%10.3f'):
     save_grib(...)
         save_grib(grib,opath,fmt,header)
 
-        Saves a grib (GRIB format) to file in opath. If opath ends in .npy that it is
-        assumed the user wants a numpy binary file.
+        Saves a grib (GRIB format) to file in opath. If opath ends in .npy that
+        it is assumed the user wants a numpy binary file.
 
     Parameters
     ----------
@@ -1846,8 +1979,13 @@ def save_grib(grib, opath='default_grib_name.prn', fmt='%10.3f'):
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         np.save(opath, grib)
@@ -1855,7 +1993,8 @@ def save_grib(grib, opath='default_grib_name.prn', fmt='%10.3f'):
         fid = open(opath, 'w')
         for i in xrange(grib.shape[3]):
             fid.write(str(grib.shape[
-                      0]) + '     ' + str(grib.shape[1]) + '     ' + str(grib.shape[2]) + '\n')
+                      0]) + '     ' + str(grib.shape[1]) + '     ' +
+                      str(grib.shape[2]) + '\n')
             for z in xrange(grib.shape[2]):
                 for y in xrange(grib.shape[1]):
                     for x in xrange(grib.shape[0]):
@@ -1864,7 +2003,9 @@ def save_grib(grib, opath='default_grib_name.prn', fmt='%10.3f'):
     return True
 
 
-def cerena_save_point_by_dictionary(dictionary, xc, yc, zc, opath='default_point_name.prn', fmt='%10.3f', header=False):
+def cerena_save_point_by_dictionary(dictionary, xc, yc, zc,
+                                    opath='default_point_name.prn',
+                                    fmt='%10.3f', header=False):
     '''
     cerena_save_point_by_dictionary(...)
         cerena_save_grid(dictionary,opath,fmt,header)
@@ -1896,8 +2037,13 @@ def cerena_save_point_by_dictionary(dictionary, xc, yc, zc, opath='default_point
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         grid = []
@@ -1924,7 +2070,9 @@ def cerena_save_point_by_dictionary(dictionary, xc, yc, zc, opath='default_point
         return True
 
 
-def cerena_save_flexible_data_by_dictionary(dictionary, opath='default_data_name.prn', fmt='%10.3f', header=False):
+def cerena_save_flexible_data_by_dictionary(dictionary,
+                                            opath='default_data_name.prn',
+                                            fmt='%10.3f', header=False):
     '''
     cerena_save_flexible_data_by_dictionary(...)
         cerena_save_flexible_data_by_dictionary(dictionary,opath,fmt,header)
@@ -1956,8 +2104,13 @@ def cerena_save_flexible_data_by_dictionary(dictionary, opath='default_data_name
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         grid = []
@@ -1986,7 +2139,8 @@ def cerena_save_flexible_data_by_dictionary(dictionary, opath='default_data_name
         return True
 
 
-def save_point(point, opath='default_point_name.prn', fmt='%10.3f', header=False):
+def save_point(point, opath='default_point_name.prn', fmt='%10.3f',
+               header=False):
     '''
     save_point(...)
         save_point(point,opath,fmt,header)
@@ -2018,8 +2172,13 @@ def save_point(point, opath='default_point_name.prn', fmt='%10.3f', header=False
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         np.save(opath, point)
@@ -2035,7 +2194,8 @@ def save_point(point, opath='default_point_name.prn', fmt='%10.3f', header=False
         return True
 
 
-def save_flexible_data(point, opath='default_data_name.prn', fmt='%10.3f', header=False):
+def save_flexible_data(point, opath='default_data_name.prn', fmt='%10.3f',
+                       header=False):
     '''
     save_point(...)
         save_point(point,opath,fmt,header)
@@ -2067,8 +2227,13 @@ def save_flexible_data(point, opath='default_data_name.prn', fmt='%10.3f', heade
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         np.save(opath, point)
@@ -2120,8 +2285,13 @@ def save_data(data, opath='default_data_name.prn', fmt='%10.3f', header=False):
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     if opath[-4:] == '.npy':
         np.save(opath, data)
@@ -2137,7 +2307,8 @@ def save_data(data, opath='default_data_name.prn', fmt='%10.3f', header=False):
         return True
 
 
-def save_continuous_block(block, opath='default_continuous_block_name.prn', fmt='%10.3f'):
+def save_continuous_block(block, opath='default_continuous_block_name.prn',
+                          fmt='%10.3f'):
     '''
     save_continuous_block(...)
         save_continuous_block(block,opath,fmt)
@@ -2164,8 +2335,13 @@ def save_continuous_block(block, opath='default_continuous_block_name.prn', fmt=
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+
     '''
     fid = open(opath, 'w')
     fid.write('BLOCK_FILE\n' + str(block[1].shape[0]) + '\n')
@@ -2176,13 +2352,15 @@ def save_continuous_block(block, opath='default_continuous_block_name.prn', fmt=
         fid.write(str(block[2][k]) + '\n')
         for j in xrange(block[0][k].shape[0]):
             fid.write(str(block[0][k][
-                      j, 0]) + '     ' + str(block[0][k][j, 1]) + '     ' + str(block[0][k][j, 2]) + '\n')
+                      j, 0]) + '     ' + str(block[0][k][j, 1]) + '     ' +
+                      str(block[0][k][j, 2]) + '\n')
         count = count + 1
     fid.close()
     return True
 
 
-def save_indicator_block(block, opath='default_indicator_block_name.prn', fmt='%10.3f'):
+def save_indicator_block(block, opath='default_indicator_block_name.prn',
+                         fmt='%10.3f'):
     '''
     save_indicator_block(...)
         save_indicator_block(block,opath,fmt)
@@ -2209,8 +2387,13 @@ def save_indicator_block(block, opath='default_indicator_block_name.prn', fmt='%
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+    
     '''
     fid = open(opath, 'w')
     fid.write('BLOCK_FILE\n' + str(block[1].shape[0]) + '\n')
@@ -2222,7 +2405,8 @@ def save_indicator_block(block, opath='default_indicator_block_name.prn', fmt='%
         fid.write(str(block[1][k, -1]) + '\n' + str(block[2][k]) + '\n')
         for j in xrange(block[0][k].shape[0]):
             fid.write(str(block[0][k][
-                      j, 0]) + '     ' + str(block[0][k][j, 1]) + '     ' + str(block[0][k][j, 2]) + '\n')
+                      j, 0]) + '     ' + str(block[0][k][j, 1]) + '     ' +
+                      str(block[0][k][j, 2]) + '\n')
         count = count + 1
     fid.close()
     return True
@@ -2255,11 +2439,17 @@ def save_block(block, opath='default_block_name.prn', fmt='%10.3f'):
 
     See also
     --------
-    save_grid,save_grib,save_point,save_data,save_continuous_block,
+    save_grid
+    save_grib
+    save_point
+    save_data
+    save_continuous_block
     save_indicator_block
+    
     '''
     if opath[-4:] == '.npy':
-        print 'ERROR ON "save_block": numpy binary support for blocks does not exist in this version.'
+        print('ERROR ON "save_block": numpy binary support for blocks does '
+              'not exist in this version.')
         return False
     else:
         if len(block[1].shape) == 1:
@@ -2267,7 +2457,8 @@ def save_block(block, opath='default_block_name.prn', fmt='%10.3f'):
         elif len(block[1].shape) == 2:
             return save_indicator_block(block, opath, fmt)
         else:
-            print 'ERROR ON "save_block": values (block[1]) shape length not recognized. If 1 it a continuous variable, if 2 indicator.'
+            print('ERROR ON "save_block": values (block[1]) shape length not '
+                  'recognized. If 1 it a continuous variable, if 2 indicator.')
             return False
 
 
@@ -2323,7 +2514,8 @@ def determine_header_format(path, at_least):
                     geoeas_flag = False
                 if geoeas_flag:
                     for i in xrange(columns):
-                        if fid.readline().replace('\n', '').replace('.', '').isdigit():
+                        line = fid.readline()
+                        if line.translate(None, '\n.').isdigit():
                             cmrp_flag = False
                             geoeas_flag = False
             if cmrp_flag and number in [3, 6, 9]:
@@ -2375,6 +2567,7 @@ def pygeo_determine_header_format(path, at_least):
     flag = 'unknown'
     if columns + 2 == header:
         fid = open(path, 'r')
+        # FIXME: the second if cancels out the first!
         if fid.readline().replace('\n', '').replace('.', '').replace('-', '').isdigit():
             flag = 'unknown'
         else:
@@ -2383,7 +2576,7 @@ def pygeo_determine_header_format(path, at_least):
             flag = 'geoeas'
         else:
             flag = 'unknown'
-        for i in xrange(columns):
+        for i in xrange(columns):  # @UnusedVariable
             if fid.readline().replace('\n', '').replace('.', '').replace('-', '').isdigit():
                 flag = 'unknown'
             else:
