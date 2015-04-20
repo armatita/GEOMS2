@@ -3,17 +3,8 @@ GEOMS2 is a scientific software for geosciences and geostatistics modeling. Prov
 
 ![alt tag](/ART/DEFAULT/related/splash_screen.png?raw=true)
 
-<h2>Information for users</h2>
-Check documentation folder to see a pdf file with some guidelines on how to use this software.
-
-<h2>Information for developers</h2>
-GEOMS2.py is the main python script which than depends on cerena_file_utils, cerena_grid_utils, cerena_multivariate_utils, cerena_object, cerena_plugins, hardworklib, pymayalibrary and pympllibrary. This is pretty messy and needs some deep code refactoring at this time.
-
-<h2>Launch this code</h2>
-If you want to run GEOMS2 you'll need WinPython or comparable distribution. Currently the official version of GEOMS2 comes with a batch file (this software launcher) that guarantees that GEOMS2.py is being run by the WinPython portable version. Our batch looks like this:
-
-@echo off
-start WinPython-64bit-2.7.9.3\python-2.7.9.amd64\python.exe GEOMS2.py -wo %CD%
+<h2>Reform branch</h2>
+The reform branch is branch intended to build GEOMS2 almost from beginning. The arquitecture is different (check the architecture pdf file) and the dependencies also. It's our objective to change GUI, 2D and 3D engine in order to gain more performance and flexibility. We're still not sure what alternatives should be considered thought.
 
 <h2>Developer and contact</h2>
 
