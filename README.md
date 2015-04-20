@@ -8,6 +8,8 @@ The reform branch is branch intended to build GEOMS2 almost from beginning. The 
 
 <h2>New architecture</h2>
 I'm thinking of this folder hierarchy:
+
+
 a) Launcher (file) ->  ui (folder)        -> gui stuff and embeded engines
                    ->  cerenalib (folder) -> the actual operational stuff
 
